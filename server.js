@@ -4,7 +4,7 @@ dotenv.config();
 
 const app = express();
 
-const defaultPort = process.env.port || 7777;
+const defaultPort = process.env.PORT || 7777;
 
 app.get("/", (req, res) => {
   console.log("DEFAULT GET RESPONSE");
